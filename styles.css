@@ -30,6 +30,15 @@ h2 {
     color: #E3ACB1;
     text-align: center;
     padding: 8%;
+    position: relative;
+    animation-name: content-header;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes content-header {
+    from {right: -1050px;}
+    to {right: 0px;}
 }
 
 h3 {
