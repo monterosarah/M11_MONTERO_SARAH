@@ -125,8 +125,11 @@ img {
     margin-top: 10%;
     margin-bottom: -3%;
     border-radius: 50% 5% 50% 5%;
-    -webkit-box-shadow: 0 0 10px 2px #DEDEDE;
-    box-shadow: 0 0 20px 5px #DEDEDE;
+}
+
+#img1:hover, #img2:hover, #img3:hover {
+    -webkit-box-shadow: 2px 2px 20px #DEDEDE;
+    box-shadow: 2px 2px 20px #DEDEDE;
 }
 
 /* Footer */
