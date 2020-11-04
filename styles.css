@@ -13,6 +13,13 @@ h1 {
     font-size: 3.75rem;
     color: #E3ACB1;
     text-align: center;
+    animation-name: heading-twirl;
+    animation-duration: 5s;
+}
+
+@keyframes heading-twirl {
+    from {color: #E3ACB1;}
+    to {transform: rotateY(360deg);}
 }
 
 h2 {
