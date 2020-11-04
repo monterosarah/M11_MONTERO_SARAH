@@ -12,14 +12,16 @@ h1 {
     font-family: 'Sacramento', cursive;
     font-size: 3.75rem;
     color: #E3ACB1;
-    text-align: center;
+    position: relative;
     animation-name: heading-twirl;
     animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes heading-twirl {
-    from {color: #E3ACB1;}
-    to {transform: rotateY(360deg);}
+    0% {color: white; text-align: center; transform: rotateX(360deg)}
+    75% {color: #AC768E;}
+    100% {color: #E3ACB1; text-align: center; top: 0;}
 }
 
 h2 {
