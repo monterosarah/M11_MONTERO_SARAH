@@ -56,13 +56,16 @@ p {
     padding-left: 5%;
     padding-right: 5%;
     margin-top: -12%;
+}
+
+#animate-right {
     position: relative;
-    animation-name: content;
+    animation-name: paragraph;
     animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 
-@keyframes content {
+@keyframes paragraph {
     from {left: -1050px;}
     to {left: 0px;}
 }
@@ -121,9 +124,6 @@ img {
     margin-right: 18%;
     margin-top: 10%;
     margin-bottom: -3%;
-}
-
-.imgfloat figure img {
     border-radius: 50% 5% 50% 5%;
 }
 
