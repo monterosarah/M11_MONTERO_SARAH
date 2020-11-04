@@ -70,7 +70,12 @@ p {
 /* Navigation */
 
 nav {
-    background-color: #AC768E;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e3acb1+3,e3acb1+3,ac768e+26,ac768e+74,ac768e+74,ac768e+78,ac768e+78,ac768e+78,ac768e+78,e3acb1+100,e3acb1+100,e3acb1+100 */
+    background: #e3acb1; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e3acb1 3%, #e3acb1 3%, #ac768e 26%, #ac768e 74%, #ac768e 74%, #ac768e 78%, #ac768e 78%, #ac768e 78%, #ac768e 78%, #e3acb1 100%, #e3acb1 100%, #e3acb1 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #e3acb1 3%,#e3acb1 3%,#ac768e 26%,#ac768e 74%,#ac768e 74%,#ac768e 78%,#ac768e 78%,#ac768e 78%,#ac768e 78%,#e3acb1 100%,#e3acb1 100%,#e3acb1 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #e3acb1 3%,#e3acb1 3%,#ac768e 26%,#ac768e 74%,#ac768e 74%,#ac768e 78%,#ac768e 78%,#ac768e 78%,#ac768e 78%,#e3acb1 100%,#e3acb1 100%,#e3acb1 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3acb1', endColorstr='#e3acb1',GradientType=0 ); /* IE6-9 */
     margin-bottom: -3.5%;
     position: relative;
     z-index: 1;
