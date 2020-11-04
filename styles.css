@@ -88,12 +88,20 @@ img {
     width: 100%;
 }
 
+#banner {
+    border-radius: 0 0 32% 32%;
+}
+
 #img1, #img2, #img3 {
     width: 65%;
     margin-left: 18%;
     margin-right: 18%;
     margin-top: 10%;
     margin-bottom: -3%;
+}
+
+.imgfloat figure img {
+    border-radius: 50% 5% 50% 5%;
 }
 
 /* Footer */
